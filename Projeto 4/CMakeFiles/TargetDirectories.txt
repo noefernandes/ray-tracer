@@ -1,0 +1,3 @@
+/home/giovanne/projeto-ray-tracer-em-duplas-grupo_giovanne_noe/CMakeFiles/rebuild_cache.dir
+/home/giovanne/projeto-ray-tracer-em-duplas-grupo_giovanne_noe/CMakeFiles/basic_rt3.dir
+/home/giovanne/projeto-ray-tracer-em-duplas-grupo_giovanne_noe/CMakeFiles/edit_cache.dir

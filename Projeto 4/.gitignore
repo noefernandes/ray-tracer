@@ -1,0 +1,6 @@
+.DS_STORE
+build
+*.swp
+images
+src/tags
+CMakeCache.txt

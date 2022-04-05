@@ -1,0 +1,34 @@
+<RT3>
+    <!-- The Scene -->
+    <world_begin/>
+
+        <!-- The Background -->
+        <background type="colors" bl="153 204 255" tl="18 10 143" tr="18 10 143" br="153 204 255" />
+
+        <!-- Lights -->
+        <light_source type="directional" L="0.9 0.9 0.9" scale="1 1 1" from="3 0.8 -2" to="0 0 1" />
+        <light_source type="directional" L="0.6 0.6 0.4" scale="1 1 1" from="1 0.2 -4" to="-1 0 3" />
+
+	<material type="blinn" name="gold" ambient="0.4 0.4 0.4" diffuse ="1 0.65 0.0"   specular ="0.8 0.6 0.2" mirror ="0.0 0.0 0.0" glossiness ="256"/>
+	<object type="sphere" center="2 1.0 -2" radius="1" />
+	<material type="blinn" name="grey" ambient="0.1 0.1 0.1" diffuse ="0.8 0.8 0.8" specular ="0 0 0" mirror ="0.1 0.1 0.1" glossiness ="0"/>
+	<object type="trianglemesh" material="grey"
+                ntriangles ="2"
+                vertices ="-4 0 4  4 0 4  4 0 -4  -4 0 -4"
+                indices ="0 1 2   0 2 3"
+                normals ="0 1 0  0 1 0  0 1 0  0 1 0 "
+                reverse_vertex_order="false"
+                backface_cull ="off"/>
+	<material type="blinn" name="redish" ambient="0.6 0.6 0.6" diffuse ="0.9 0.2 0.1" specular ="0.8 0.8 0.8" mirror ="0.0 0.0 0.0" glossiness ="64"/>
+	<object type="sphere" center="0 1.0 1" radius="1" />
+	<material type="blinn" name="greenish" ambient="0.6 0.6 0.6" diffuse ="0.2 0.9 0.2"  specular ="0.8 0.8 0.8" mirror ="0.0 0.0 0.0" glossiness ="256"/>
+	<object type="sphere" center="-2 1.0 -2" radius="1" />
+
+        <!-- Material Library -->
+        <!--<include filename="../scenes/projects_references/proj_06_triangle/three_spheres/materials.xml" />-->
+
+        <!-- Objects -->
+        <!-- <include filename="../scenes/projects_references/proj_06_triangle/three_spheres/spheres.xml" />-->
+
+    <world_end/>
+</RT3>
