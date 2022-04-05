@@ -24,6 +24,10 @@ make
 ./basic_rt3 ../scene/scene_01.xml
 ```
 
+# Example of created image.
+
+![image](Projeto 5/scene/lights_scene/resulting_images/spot.png)
+
 # TODO
 
 + [ ] Cameras
