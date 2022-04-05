@@ -26,7 +26,7 @@ make
 
 # Example of created image.
 
-![image](Projeto 5/scene/lights_scene/resulting_images/spot.png)
+![image](https://github.com/noefernandes/ray-tracer/blob/ddbc07158948bbbfd6a0fc7c86c90bcdf84157a8/Projeto%205/scene/lights_scene/resulting_images/spot.png)
 
 # TODO
 
